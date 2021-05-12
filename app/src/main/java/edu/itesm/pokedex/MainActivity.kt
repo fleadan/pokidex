@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
 
         analytics = FirebaseAnalytics.getInstance(this)
         bundle = Bundle()
+        //commit comment
 
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this)
